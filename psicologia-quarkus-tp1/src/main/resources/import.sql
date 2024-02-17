@@ -1,4 +1,7 @@
-insert into pessoa (nome, cpf) values ('Paulo', '111');
-insert into pessoa (nome, cpf) values ('Janete', '222');
-insert into pessoa (nome, cpf) values ('Renato', '333');
-insert into pessoa (nome, cpf) values ('Lilian', '444');
+insert into pessoa (id, nome, cpf) values(1, 'Leandra', '111');
+insert into pessoa (id, nome, cpf) values(2, 'Fredson', '222');
+insert into pessoa (id, nome, cpf) values(3, 'Marco', '333');
+insert into pessoa (id, nome, cpf) values(4, 'Carlos Henrique', '444');
+
+insert into estado (nome, sigla) values('Tocantins', 'TO');
+insert into estado (nome, sigla) values('Goiás', 'GO');
